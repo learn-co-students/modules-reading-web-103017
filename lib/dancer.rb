@@ -6,7 +6,7 @@ class Dancer
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 
-  attr_accessor :name
+  attr_reader :name
 
   def initialize(name)
     @name = name
