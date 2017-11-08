@@ -2,4 +2,4 @@ require_relative "../lib/kid.rb"
 require_relative "../lib/dancer.rb"
 
 puts Kid.metadata
-puts Dancer.metadata
+puts Dancer.metadata  #calling a class method from a module, allowed from "extend" 
